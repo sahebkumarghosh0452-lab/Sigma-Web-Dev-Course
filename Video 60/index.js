@@ -22,10 +22,16 @@ let b = "ShivamSh"
 console.log(b.toUpperCase())
 console.log(b.toLowerCase()) 
 console.log(b.length) 
-console.log(b.slice(1, 5)) // substr if only single digit is given then ut return the str starting form the given digit 
+console.log(b.slice(1, 5)) // substr 
+//if only single digit is given then ut return the str starting form the given digit 
 console.log(b.slice(1)) 
+// slice - can have -ve index , it returns value from back 
+// substr (start,lenght) - works but avoided for new codes 
+//substring(start,end) - if start < end it swaps arg 
 
 // learn these in console panel of browser 
+
+ const matches = str.match(/\d+/g); // This extarct no from the given str 
 
 console.log(b.replace("Sh", "77"))
 console.log(b.concat(a, "Aishwariya", "Rahul", "Priya")) // we  can use + 
