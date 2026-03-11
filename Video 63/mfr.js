@@ -16,7 +16,7 @@ const greaterThanSeven = (e)=>{
     }
     return false
 }
-console.log(arr.filter(greaterThanSeven))
+console.log(arr.filter(greaterThanSeven)) // returns new array 
 
 let arr2 = [1,2,3,4,5,6]
 
@@ -24,4 +24,4 @@ const red = (a, b)=>{
     return a+b
 }
 
-console.log(arr2.reduce(red))
+console.log(arr2.reduce(red)) // 1+2 then ans+4 
