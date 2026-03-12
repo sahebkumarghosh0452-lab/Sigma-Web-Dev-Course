@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript DOM</title>
+    <title>JavaScript DOM</title> #Document Obj model 
 </head>
 <body>
     <div class="container">
@@ -13,9 +13,37 @@
     </div>
     <script>
         document.title = "Harry is good"
-        console.log(document.title)
-        console.log(document.body)
+        console.log(document.title) # change the title of the page when loaded 
+        console.log(document.body) # page as js script 
         document.body.style.backgroundColor = "green";
     </script>
 </body>
 </html>
+
+The browswer have embedded js runtime engine . the ability is to protect users safety .
+
+Ele - contains HTML 
+console - all errors + logs 
+Networks - all networks requests 
+
+~~ the benefit of separate js file is its stored as cache in browser 
+
+assert() - used to assert a condition , 
+clear() - clears the console 
+log() - outputs a msg to cnsl 
+table() - display a tabular data 
+warn() - used for warnings 
+error() - used for errors 
+info() - used for special information 
+
+WINDOW OBJ - rep browser window and provides methods to control. (GLOBAL OBJ)
+i. DOM 
+ii. BOM 
+iii. JS core 
+######################IMP###################
+$0 is the file that is been selected and clicked inspect . 
+Now using $0.style.background with can directly connect the file to be used. 
+
+
+BOM(Browser Obj Model) - represent additional obj provided by the browser (host environment) for working with everything accept the document. 
+~ The func alert / confirm / prompt are also used as a part of BOM. 
