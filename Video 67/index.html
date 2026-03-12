@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"> //ROOT 
+<head> //Child 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -14,10 +14,10 @@
         }
     </style>
 </head>
-<body>
+<body>//Child
     <div class="container">
         <!-- this is me  -->
-        <div class="box">Box1</div>
+        <div class="box">Box1</div> //the text is first child as the spaces in HTML is treated as text 
         <div class="box">Box2</div>
         <div class="box">Box3</div>
         <div class="box">Box4</div>
@@ -38,3 +38,35 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+DOM trees - HTML page where all the nodes are obj . Three main type of nodes in the DOM tree :
+i. Text nodes 
+ii. ele nodes 
+iii. comment nodes 
+
+~ Auto correction - if erroneous HTML is encounterred by a broser ity is corrected by it . 
+e.g- if something written after body its moved inside the body.
+
+~#~ doc.body can smtim be null if the js is written bef the bdy tag 
+
+Child nodes are collection. can be trans to arr using a.from(clc) ; 
+
+ele.haschildnodes() - check it have child node or not 
+
+DOM - read-only,iterable using for..of loop , auto upd childnodes of ele if chg
+
+doc.prevelesbl  
+doc.nextelesbl 
+doc.frstelecld
+doc.sndelecld
+
+TABLE Links 
+table.rows - clc of tr ele 
+table,caption - ref to <caption>
+table.tHead - ref to <tHead>
+table.tbodies - clc of tr tbody ele  
+tbody.rows - clc of tr ele 
+table.rows - clc of tr ele 
+
+
+
