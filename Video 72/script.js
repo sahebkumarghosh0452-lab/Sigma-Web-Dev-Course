@@ -13,3 +13,5 @@ Array.from(boxes).forEach(e=>{
     e.style.backgroundColor = getRandomColor()
     e.style.color = getRandomColor()
 })
+
+//a + math.random(a-b) (generates random no btw a , b)

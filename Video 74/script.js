@@ -14,3 +14,9 @@ button.addEventListener("contextmenu", ()=>{
 document.addEventListener("keydown", (e)=>{
     console.log(e, e.key, e.keyCode)
 })
+
+let tid = setTimeout(hehe(),<>2553</>,<>Right</>,<>Left</>)
+//returns a timer id , the digit are delay in ms 
+clearTimeout(tid) //cancel the execution 
+
+let tsit = setInterval() //similar only diff is that it repeats after given interval of time 

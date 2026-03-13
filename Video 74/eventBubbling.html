@@ -57,11 +57,12 @@
             let val3 = Math.ceil(0 + Math.random() * 255);
             return `rgb(${val1}, ${val2}, ${val3})`
         }
-        // let a = setInterval(() => {
-        //     document.querySelector(".childContainer").style.background = getRandomColor();
-        // }, 1000);
+        let c = setInterval(() => {
+            document.querySelector(".childContainer").style.background = getRandomColor();
+        }, 1000);
+        //The no given by this function can be used with clear interval to stop the event propagation 
 
-        // console.log(a)
+        console.log(a)
 
         let a = setTimeout(() => {
             document.querySelector(".childContainer").style.background = getRandomColor();
@@ -74,3 +75,5 @@
 </body>
 
 </html>
+
+//Adding a handler with js overwrites the existing handler 
